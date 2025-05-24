@@ -54,6 +54,5 @@ class Cat(Animals):
 
 factory = AnimalFactory() #Responsible for creating objects
 dog = factory.create_product("dog") #method of the factory and passes "dog" as the type.
-cat = factory.create_product("cat") #method of the factory and passes ",cat" as the type.
 dog.run() #Calls the method of the Dog class
-cat.run() #Calls the method of the Cat class
+#Calls the method of the Cat class
